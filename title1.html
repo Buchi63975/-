@@ -1,32 +1,45 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>進撃WEBsite</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <style>
-    body{
+        body {
             background-image: url("https://shingeki.tv/final/img/home/visual_05.jpg");
-            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
         }
-    .container {
+
+        .container {
             display: flex;
+            margin: 0;
+            padding: 0;
         }
-    .sidebar {
-            width: 200px;
-            -color: #f1f1f1;
+
+        #sidebar {
+            width: 20%;
+            color: #f1f1f1;
+            background-color: black;
+            z-index: 2;
+            margin: 0;
+            padding: 0;
         }
-    .main-content {
-            flex: 1;
+
+        .main-content {
             padding: 20px;
+            background-repeat: no-repeat;
+            height: 1000px;
+            flex: 1;
         }
     </style>
 </head>
+
 <body>
-    <div class="container"></div>
-    <a class="logo" href="https://shingeki.tv/final/"><img src=""></a>
     <div class="container">
         <div id="sidebar">
+            <a class="logo" href="https://shingeki.tv/final/"><img src=""></a>
             <ul>
                 <li>進撃の巨人のキャラの魅力</li>
                 <li>ストーリー概要</li>
@@ -34,90 +47,25 @@
                 <li>キャラクター詳細２</li>
                 <li>用語解説</li>
             </ul>
+            <li class="c-mainmenu__item c-mainmenu__item--twitter"></li>
+            <a href="https://twitter.com/anime_shingeki" class="c-mainmenu__link c-mainmenu__link--twitter" ontouchstart
+                target="_blank" rel="noopener noreferrer" data-menu-active data-submenu-opened="false">Twitter</a>
+            <li class="c-mainmenu__item c-mainmenu__item--instagram"></li>
+            <a href="https://www.instagram.com/anime_shingeki_official"
+                class="c-mainmenu__link c-mainmenu__link--instagram" ontouchstart target="_blank"
+                rel="noopener noreferrer" data-menu-active data-submenu-opened="false">Instagram</a>
+            <li class="c-mainmenu__item c-mainmenu__item--tiktok"></li>
+            <a href="https://ttdeffered1180.onelink.me/E3y1/officialAOT"
+                class="c-mainmenu__link c-mainmenu__link--tiktok" ontouchstart target="_blank" rel="noopener noreferrer"
+                data-menu-active data-submenu-opened="false">TikTok</a>
+            <ul class="c-banners js-common-banners"
+                data-banners="gensaku,anime1,anime2,anime3,movie_1,movie_2,movie_season2,movie_chronicle">
+            </ul>
         </div>
         <div class="main-content">
         </div>
+
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <li class="c-mainmenu__item c-mainmenu__item--twitter"></li>
-    <a href="https://twitter.com/anime_shingeki" class="c-mainmenu__link c-mainmenu__link--twitter" ontouchstart target="_blank" rel="noopener noreferrer" data-menu-active data-submenu-opened="false">Twitter</a>
-    <li class="c-mainmenu__item c-mainmenu__item--instagram"></li>
-    <a href="https://www.instagram.com/anime_shingeki_official" class="c-mainmenu__link c-mainmenu__link--instagram" ontouchstart target="_blank" rel="noopener noreferrer" data-menu-active data-submenu-opened="false">Instagram</a>
-    <li class="c-mainmenu__item c-mainmenu__item--tiktok"></li>
-    <a href="https://ttdeffered1180.onelink.me/E3y1/officialAOT" class="c-mainmenu__link c-mainmenu__link--tiktok" ontouchstart target="_blank" rel="noopener noreferrer" data-menu-active data-submenu-opened="false">TikTok</a>
-    <ul class="c-banners js-common-banners" data-banners="gensaku,anime1,anime2,anime3,movie_1,movie_2,movie_season2,movie_chronicle">
-    </ul>
 </body>
+
 </html>
