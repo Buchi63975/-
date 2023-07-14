@@ -10,6 +10,7 @@ body {
     width: 25%;
     background-color: rgba(0,0,0,0.7);
     transition: all 0.5s 0s ease;
+    margin-bottom:9.2%;
 }
 
 
@@ -33,7 +34,8 @@ body {
 
 .main {
     width: 75%;
-    margin-left: 10px;
+    margin-left: 0px;
+    background-color: #BB1C20;
 }
 
 summary{
@@ -55,26 +57,30 @@ summary{
 
 .syuugou {
     width: 100%; 
-    margin-top: 5px;
-    margin-bottom: -10px;
+    margin-top:15px;
+    margin-bottom: -7px;
 }
 
 h1 {
     padding-left: 5px;
+    color: #ffffff;
   }
   
   h3 {
     padding-left: 5px;
-    background-color: #66CCFF;
+    background-color: #02B1FF;
+    color: #ffffff;
+    font-family:'Terminal';
+    border: solid 3px #0181BA;
   }
   
   th {
     font-size: 0.8em;
-    background-color: #9ACD32;
+    background-color: #686a61;
   }
   
   td {
-    background-color: #90EE90;
+    background-color: #9c9f94;
   }
   
   p {
@@ -83,4 +89,14 @@ h1 {
     margin: 5px;
     background-color: #eeeeee;
     border: solid 2px #CCCCCC;
+  }
+
+  table {
+    border-collapse: collapse; 
+    margin-left: 5px;
+  }
+  
+  table, th, td {
+    border: 1px solid #eeeeee; 
+    padding: 8px; 
   }
